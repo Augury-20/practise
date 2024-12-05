@@ -28,4 +28,4 @@ function nextSlide() {
 // 自動播放（選擇性功能）
 setInterval(() => {
   nextSlide();
-}, 3000);
+}, 5000);
