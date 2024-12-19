@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>答題遊戲</title>
+    <link rel="stylesheet" href="題目.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>這是一道範例題目：2 + 2 = ?</h1>
+        <div class="answer-buttons">
+            <button onclick="checkAnswer(this, 'wrong')">3</button>
+            <button onclick="checkAnswer(this, 'correct')">4</button>
+            <button onclick="checkAnswer(this, 'wrong')">5</button>
+            <button onclick="checkAnswer(this, 'wrong')">6</button>
+        </div>
+        <div id="correct-answer" class="hidden">正確答案是：4</div>
+    </div>
+    <script src="題目.js"></script>
+</body>
+</html>
